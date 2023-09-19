@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Suggestion Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Product Suggestion Tool</h1>
+        <form id="suggestionForm">
+            <label for="budget">Budget:</label>
+            <select id="budget" name="budget">
+                <option value="Under 2k">Under 2k</option>
+                <option value="2k to 5k">2k to 5k</option>
+                <option value="5k to 10k">5k to 10k</option>
+            </select>
+
+            <label for="timeInvestment">Time Investment:</label>
+            <select id="timeInvestment" name="timeInvestment">
+                <option value="Below 5 hours"> Below 5 hours</option>
+                <option value="5-10 hours">5-10 hours</option>
+                <option value="> 10 hours">> 10 hours</option>
+            </select>
+
+
+            <label for="interest">What interests you the most?</label>
+            <select id="interest" name="interest">
+                <option value="Tech Gadgets">Tech Gadgets</option>
+                <option value="Fashion">Fashion</option>
+                <option value="Home Decor">Home Decor</option>
+                <option value="Health & Wellness">Health & Wellness</option>
+                <option value="Food & Beverage">Food & Beverage</option>
+                <option value="Beauty Products">Beauty Products</option>
+                <option value="Pet Care">Pet Care</option>
+                <option value="Sports & Outdoor">Sports & Outdoor</option>
+                <option value="Arts & Crafts">Arts & Crafts</option>
+                <option value="Travel">Travel</option>
+            </select>
+
+            <label for="techSavviness">How tech-savvy are you?</label>
+            <select id="techSavviness" name="techSavviness">
+                <option value="Beginner">Beginner</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Expert">Expert</option>
+            </select>
+
+            <label for="marketingSkills">How would you describe your marketing skills?</label>
+            <select id="marketingSkills" name="marketingSkills">
+                <option value="Beginner">Beginner</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Expert">Expert</option>
+            </select>
+
+            <label for="targetCustomer">Who's your target customer?</label>
+            <select id="targetCustomer" name="targetCustomer">
+                <option value="Students">Students</option>
+                <option value="Working Professionals">Working Professionals</option>
+                <option value="Homeowners">Homeowners</option>
+                <option value="Fitness Enthusiasts">Fitness Enthusiasts</option>
+                <option value="Pet Owners">Pet Owners</option>
+                <option value="Parents">Parents</option>
+                <option value="Seniors">Seniors</option>
+            </select>
+
+            <label for="salesChannel">What's your preferred sales channel?</label>
+            <select id="salesChannel" name="salesChannel">
+                <option value="Social Media">Social Media</option>
+                <option value="Marketplace">Marketplace</option>
+                <option value="Own Website">Own Website</option>
+            </select>
+
+            <label for="timeToStartEarning">How quickly do you want to start earning?</label>
+            <select id="timeToStartEarning" name="timeToStartEarning">
+                <option value="ASAP">ASAP</option>
+                <option value="In a few months">In a few months</option>
+                <option value="No hurry">No hurry</option>
+            </select>
+
+            <label for="riskLevel">How much risk are you willing to take?</label>
+            <select id="riskLevel" name="riskLevel">
+                <option value="Low">Low</option>
+                <option value="Moderate">Moderate</option>
+                <option value="High">High</option>
+            </select>
+
+            <label for="topPriority">What's your top priority?</label>
+            <select id="topPriority" name="topPriority">
+                <option value="Profit Margin">Profit Margin</option>
+                <option value="Sales Volume">Sales Volume</option>
+                <option value="Building a Brand">Building a Brand</option>
+            </select>
+            <!-- Add other form fields similarly -->
+
+            <input type="submit" value="Get Suggestion">
+        </form>
+        <div id="result">
+            <!-- The product/niche suggestion will be displayed here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
